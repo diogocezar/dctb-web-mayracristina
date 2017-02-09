@@ -1,0 +1,115 @@
+body{
+    height: 100%;
+    background: -webkit-linear-gradient(left, #f4f3f1 50%, #a398b2 50%);
+    background: -o-linear-gradient(left, #f4f3f1 50%, #a398b2 50%);
+    background: linear-gradient(to right, #f4f3f1 50%, #a398b2 50%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container  {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2147483647;
+	height: 100%;
+}
+
+#infos{
+    position: absolute;
+    bottom: -60px;
+    width: 50%;
+    text-align: right;
+}
+
+#infos h3{
+    font-size: 1.3em;
+    color: #a398b2;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    position: relative;
+    float: right;
+    padding-right: 10px;
+}
+
+#infos h4{
+	font-size: 0.9em;
+    color: #051014;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    position: relative;
+    float: right;
+    padding-right: 10px;
+}
+
+#logo {
+    background-image: url(../images/logo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 660px;
+    width: 500px;
+    left: 50%;
+    top: 45%;
+    position: absolute;
+    margin: -330px 0 0 -250px;
+}
+
+@media screen and (max-height: 795px){
+	#logo {
+	    background-image: url(../images/logo.svg);
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    height: 500px;
+	    width: 341px;
+	    left: 50%;
+	    top: 40%;
+	    position: absolute;
+	    margin: -250px 0 0 -170px;
+	}
+	#infos h3{
+		font-size: 0.9em;
+		margin-bottom: 0px;
+	}
+	#infos h4{
+		font-size: 0.8em;
+	}
+	#infos {
+	    bottom: -20px;
+	}
+}
+
+@media screen and (max-width: 460px){
+	#logo {
+	    left: 60%;
+	    top: 45%;
+	}
+	body{
+	    height: 100%;
+	    background: -webkit-linear-gradient(left, #f4f3f1 60%, #a398b2 40%);
+	    background: -o-linear-gradient(left, #f4f3f1 60%, #a398b2 40%);
+	    background: linear-gradient(to right, #f4f3f1 60%, #a398b2 40%);
+	    font-family: 'Montserrat', sans-serif;
+	}
+	#infos h3{
+		font-size: 0.9em;
+		margin-bottom: 0px;
+	}
+	#infos h4{
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 320px){
+	#infos h3{
+		font-size: 0.8em;
+	}
+	#infos h4{
+		font-size: 0.7em;
+	}
+}
+
+a{
+	color: #f36f59!important;
+	text-decoration: none!important;
+}
