@@ -92,20 +92,20 @@ body{
 	    font-family: 'Montserrat', sans-serif;
 	}
 	#infos h3{
-		font-size: 0.9em;
+		font-size: 0.85em;
 		margin-bottom: 0px;
 	}
 	#infos h4{
-		font-size: 0.8em;
+		font-size: 0.7em;
 	}
 }
 
 @media screen and (max-width: 320px){
 	#infos h3{
-		font-size: 0.8em;
+		font-size: 0.7em;
 	}
 	#infos h4{
-		font-size: 0.7em;
+		font-size: 0.65em;
 	}
 }
 
